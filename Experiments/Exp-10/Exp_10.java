@@ -8,7 +8,7 @@ abstract class BankAccount {
         this.accountHolderName = accountHolderName; 
         this.balance = balance; 
     } 
-    // Deposit Method 
+    // Deposit method
     void deposit(double amount) { 
         balance = balance + amount; 
         System.out.println("Amount Deposited: " + amount); 
