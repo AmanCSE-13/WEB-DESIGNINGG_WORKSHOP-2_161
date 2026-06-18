@@ -1,4 +1,4 @@
-/* ===== RESET & BASE ===== */
+
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +7,6 @@
 }
 a { text-decoration: none; }
 
-/* ===== NAVBAR ===== */
 .navbar {
     height: 60px;
     background-color: #0f1111;
@@ -34,7 +33,6 @@ a { text-decoration: none; }
 .add-second { font-size: 1rem; margin-left: 3px; }
 .add-icon { display: flex; align-items: center; }
 
-/* Search */
 .nav-search {
     display: flex;
     background-color: white;
