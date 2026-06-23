@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+    text-align:center;font-family:Arial;background-color:white;
+}
+
+header,footer{
+    background-color:darkcyan;color:white;
+    padding:10px;
+}
+
+input,button{
+    padding:10px;
+margin:10px;
+}
+
+button{
+    background-color:steelblue;color:white;
+ border:none;
+}
+
+p{font-weight:bold; font-size:20px;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h2>Number Checker</h2>
+</header>
+<h2>Even or Odd Checker</h2>
+<p>Enter a number to check whether it is even or odd.</p>
+<input type="number" id="num" placeholder="Enter Number">
+<button onclick="check()">Check</button>
+<p id="result"></p>
+<footer>
+    <p>Made using HTML, CSS and JavaScript</p>
+</footer>
+<script>
+function check(){
+    let n = Number(document.getElementById("num").value);
+    if(n%2==0)
+        document.getElementById("result").innerHTML="Even Number";
+    else
+        document.getElementById("result").innerHTML="Odd Number";
+}
+</script>
+</body>
+</html>
